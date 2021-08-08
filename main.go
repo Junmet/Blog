@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import router "Blog/routes"
 
 func main() {
-	fmt.Println("123")
+	router.InitRouter()
 }
